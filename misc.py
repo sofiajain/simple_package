@@ -3,12 +3,12 @@ import pandas as pd
 
 def check_string_in_list(string: str, string_list: List[str]) -> bool:
   """
-  Check if a string is present in a list of strings and raise an error if not found.
+  Check if a string present in a list of strings and raise an error if not found.
   
   Args:
       string (str): The string to check.
-      string_list (list): The list of strings to search in.
-      
+      string_list (list): The list of strings to search in. 
+
   Raises:
       ValueError: If the string is not found in the list.
   
